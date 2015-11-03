@@ -27,9 +27,6 @@ Distributed as-is; no warranty is given.
 #include "application.h"	// Needed for Spark Core
 
 
-///////////////////////////////////
-// MMA8452Q Register Definitions //
-///////////////////////////////////
 enum MMA8452Q_Register {
 	STATUS = 0x00,
 	OUT_X_MSB = 0x01,
